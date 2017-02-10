@@ -14,7 +14,7 @@ while number!=0:
 	number -=1
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 8,30) <  dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 8,00):
+    if dt(dt.now().year, dt.now().month, dt.now().day, 5,30) <  dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 8,00):
             print ("time")
 
             with open(host_path,'r+') as file:
